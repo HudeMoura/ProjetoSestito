@@ -1,0 +1,51 @@
+body{
+    background-color: #10454F;
+    font: normal 2.0vw Cambria;
+}
+header {
+    color: #BDE038;
+    text-align: center;
+
+}
+section {
+    background-color: #A3AB78;
+    color: #10454F;
+    border-radius: 10px;
+    padding: 15px;
+    width: 35%;
+    margin: auto;
+    box-shadow: 5px 5px 10px #506266;
+}
+.btngerador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+}
+#txtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#btnVerificar {
+    background-color: #10454F;
+    color: white;
+    border-color: #BDE038;
+    width: 30%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    border-radius: 8px;
+}
+#res {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    color: #BDE038;
+    text-align: center;
+    font-style: italic;
+}
