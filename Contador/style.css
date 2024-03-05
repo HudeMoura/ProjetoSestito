@@ -1,0 +1,36 @@
+body {
+    background-color: #10454F;
+    font: normal 1.5rem;
+    color: #fff;
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.twitter, .youtube, .facebook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 2%;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}

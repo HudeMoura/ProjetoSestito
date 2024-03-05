@@ -1,0 +1,65 @@
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-button.collapsed {
+    background: transparent;
+}
+.accordion-button {
+    background: transparent !important;
+  }
+.accordion-item {
+    background-color: transparent !important;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    color: black;
+}
+
+.accordion-header {
+    margin: 0 35px 0 0;
+    font-weight: 900;
+}
+
+.accordion-body {
+    font-family: "Font Awesome 5 Free";
+}
+
+.accordion-body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.faq-toggle {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.faq.active {
+    background-color: #f0f0f0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
