@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --white: #fff;
-    --green: #ec9d42;
-}
-
 body {
     background-color: rgba(13, 30, 127, 0.7);
     font-family: 'Open Sans', sans-serif;
@@ -53,6 +48,10 @@ nav ul {
     padding: 0;
     margin: 0;
     height: 60px;
+}
+
+nav ul li:hover, nav ul li.active {
+    color: #8e44ad;
 }
 
 nav li {
