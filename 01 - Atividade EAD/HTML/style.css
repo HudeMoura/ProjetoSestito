@@ -27,6 +27,22 @@ main {
     margin-top: var(--bs-gutter-y);
 }
 
+.row {
+    display: flex;
+    align-items: row;
+    margin-top: 3%;
+}
+.linha01{
+    width: 10%;
+}
+
+.titulo{
+    width: 15%;
+}
+
+.linha02{
+    width: 75%;
+}
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -63,4 +79,23 @@ p {
 .col-md-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
+}
+
+.rowTeacherCircle{
+    margin-top: 2%;
+}
+
+.imgCircle{
+    clip-path: circle();
+    width: 90%;
+}
+
+.imgCursos {
+    width: 100%;
+}
+
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
